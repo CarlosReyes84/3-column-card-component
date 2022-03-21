@@ -496,26 +496,6 @@ p {
   position: relative;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
-.bottom-2 {
-  bottom: 0.5rem;
-}
-
-.bottom-5 {
-  bottom: 1.25rem;
-}
-
-.bottom-8 {
-  bottom: 2rem;
-}
-
-.bottom-10 {
-  bottom: 2.5rem;
-}
-
 .bottom-12 {
   bottom: 3rem;
 }
@@ -528,10 +508,6 @@ p {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
 }
 
 .flex {
@@ -564,23 +540,14 @@ p {
   border-bottom-left-radius: 0.5rem;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
-.border-r-green2 {
-  --tw-border-opacity: 1;
-  border-right-color: hsl(179 100% 13% / var(--tw-border-opacity));
+.bg-white1 {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 95% / var(--tw-bg-opacity));
 }
 
 .bg-orange1 {
   --tw-bg-opacity: 1;
   background-color: hsl(31 77% 52% / var(--tw-bg-opacity));
-}
-
-.bg-white1 {
-  --tw-bg-opacity: 1;
-  background-color: hsl(0 0% 95% / var(--tw-bg-opacity));
 }
 
 .bg-green1 {
@@ -630,24 +597,8 @@ p {
   font-weight: 700;
 }
 
-.leading-3 {
-  line-height: .75rem;
-}
-
-.leading-6 {
-  line-height: 1.5rem;
-}
-
 .leading-7 {
   line-height: 1.75rem;
-}
-
-.leading-8 {
-  line-height: 2rem;
-}
-
-.leading-9 {
-  line-height: 2.25rem;
 }
 
 .text-white1 {
@@ -674,10 +625,42 @@ p {
   color: hsl(179 100% 13% / var(--tw-text-opacity));
 }
 
-@media (min-width: 768px) {
-  .md\:mt-16 {
-    margin-top: 4rem;
-  }
+.hover\:border-2:hover {
+  border-width: 2px;
+}
+
+.hover\:border:hover {
+  border-width: 1px;
+}
+
+.hover\:border-white1:hover {
+  --tw-border-opacity: 1;
+  border-color: hsl(0 0% 95% / var(--tw-border-opacity));
+}
+
+.hover\:bg-orange1:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(31 77% 52% / var(--tw-bg-opacity));
+}
+
+.hover\:bg-green1:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(184 100% 22% / var(--tw-bg-opacity));
+}
+
+.hover\:bg-green2:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(179 100% 13% / var(--tw-bg-opacity));
+}
+
+.hover\:text-white1:hover {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 95% / var(--tw-text-opacity));
+}
+
+.hover\:text-green2:hover {
+  --tw-text-opacity: 1;
+  color: hsl(179 100% 13% / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {
