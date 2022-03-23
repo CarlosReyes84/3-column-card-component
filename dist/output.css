@@ -428,7 +428,7 @@ html {
 }
 
 h1 {
-  font-family: 'Big Shoulders Display', cursive;
+  font-family: 'Big Shoulders Display', sans-serif;
 }
 
 p {
@@ -629,10 +629,6 @@ p {
   border-width: 2px;
 }
 
-.hover\:border:hover {
-  border-width: 1px;
-}
-
 .hover\:border-white1:hover {
   --tw-border-opacity: 1;
   border-color: hsl(0 0% 95% / var(--tw-border-opacity));
@@ -656,11 +652,6 @@ p {
 .hover\:text-white1:hover {
   --tw-text-opacity: 1;
   color: hsl(0 0% 95% / var(--tw-text-opacity));
-}
-
-.hover\:text-green2:hover {
-  --tw-text-opacity: 1;
-  color: hsl(179 100% 13% / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {
